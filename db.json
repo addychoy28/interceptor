@@ -1,17 +1,31 @@
-[
-  {
-    "id": 1,
-    "Name": "VS",
-    "Occupation": "Post 1"
-  },
-  {
-    "id": 2,
-    "Name": "VS 2",
-    "Occupation": "Post 2"
-  },
-  {
-    "id": 3,
-    "Name": "VS 3",
-    "Occupation": "Post 3"
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
