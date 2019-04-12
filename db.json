@@ -2,25 +2,30 @@
   "posts": [
     {
       "id": 1,
+      "name": "VS",
       "title": "Post 1"
     },
     {
       "id": 2,
+      "name": "VS 2",
       "title": "Post 2"
     },
     {
       "id": 3,
+      "name": "VS 3",
       "title": "Post 3"
     }
   ],
   "comments": [
     {
       "id": 1,
+      "name": "VS C - 1",
       "body": "some comment",
       "postId": 1
     },
     {
       "id": 2,
+      "name": "VS C - 2",
       "body": "some comment",
       "postId": 1
     }
